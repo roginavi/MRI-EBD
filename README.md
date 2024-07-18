@@ -26,3 +26,17 @@ stack-data==0.6.2
 traitlets==5.9.0
 typing_extensions==4.6.2
 wcwidth==0.2.6
+
+# Use
+before running eye_det.py
+- Enter video file to read using variable filename (line 18)
+- Enter desired output filename in csv format (line 35)
+- run script eye_det.py
+- select eye contour using the interactive user interface the press enter
+- Wait until the end of the landmark detection
+
+# csv file 
+the csv file is composed of 14 columns
+column 1: frame number
+column 2 through 13: xy coordinates of 6 landmarks
+column 14: Computed EAR (Eye Aspect Ratio)
